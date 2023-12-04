@@ -1,0 +1,76 @@
+
+* {
+  margin: 8px;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 21cm;
+  margin: 0 auto; /* 將頁面置中 */
+  padding: 20px; /* 可以根據需要添加一些內邊距 */
+  border: 5px solid black;
+}
+
+section {
+  line-height: 1.2;
+}
+
+h1, h2, p, ul {
+  margin-top: 0.2em; /* 設置上邊距 */
+  margin-bottom: 0.2em; /* 設置下邊距 */
+}
+
+
+.blackline {
+  border-top: 2px solid black; /* 設置上邊框為 2px 寬的黑色線條 */
+  margin: 10px 0; /* 可以根據需要調整上下間距 */
+}
+
+h1 {
+  font-size: 1.6em; /* 使用 em 單位 */
+}
+
+h2 {
+  font-size: 1.3em; /* 使用 em 單位 */
+}
+
+p, ul {
+  font-size: 0.9em; /* 使用 em 單位 */
+}
+
+.Intro {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+/* Styles for smaller screens (e.g., phones) */
+@media screen and (max-width: 600px) {
+  .container {
+    flex-direction: column; /* Stack elements vertically on smaller screens */
+  }
+}
+
+.Intro img {
+  margin-right: 10px; /* 可以根據需要調整圖片右側的間距 */
+  max-width: 100%; /* 圖片的最大寬度為其父元素的寬度 */
+  max-height: 130px; /* 圖片的最大高度為200像素，你可以根據需要調整這個值 */
+}
+
+.Intro div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* 將文本內容左對齊 */
+}
+
+.separator {
+  margin: 0 3px; /* 根據需要調整分隔符左右的間距 */
+}
+
+
+
+
+
+
